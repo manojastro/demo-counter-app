@@ -16,8 +16,7 @@ pipeline{
             
             step{
                 sh 'mvn test'
-        }
-        
-    }
+           }
+       }
     }
 }
